@@ -56,7 +56,6 @@ function salvarTarefas(){
     for(let tarefa of liTarefas){
         let tarefaTexto = tarefa.innerText;
         tarefaTexto = tarefaTexto.replace('Apagar', '').trim();
-        console.log(tarefaTexto);
         listaDeTarefas.push(tarefaTexto);
     }
 
